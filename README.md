@@ -32,7 +32,6 @@
     ```
 
 ## Run Tests
-
-    ```bash
-    php artisan test
-    ```
+```bash
+php artisan test
+```
