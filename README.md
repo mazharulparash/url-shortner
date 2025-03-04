@@ -1,24 +1,38 @@
 # url-shortner
+
 ## Installation
 
-1. Open command line and run following commands:
+1. Open command line and run the following commands:
 
-git clone https://github.com/mazharulparash/url-shortner.git
-cd url-shortener
-composer install
+    ```bash
+    git clone https://github.com/mazharulparash/url-shortner.git
+    cd url-shortener
+    composer install
+    ```
 
-2. Configure .env file to set up database and run following commands:
+2. Configure `.env` or copy `.env.example` file to set up the database and run the following commands:
 
-php artisan migrate
-php artisan serve
+    ```bash
+    php artisan migrate
+    php artisan serve
+    ```
 
 ## API Endpoints
+
 1. Encode URL
-  POST /api/encode
-  Body: { "url": "https://example.com" }
+    ```bash
+    POST /api/encode
+    Body: { "url": "https://example.com" }
+    ```
+
 2. Decode URL
-POST /api/decode
-Body: { "short_url": "http://localhost/abc123" }
+    ```bash
+    POST /api/decode
+    Body: { "short_url": "http://localhost/abc123" }
+    ```
 
 ## Run Tests
-php artisan test
+
+    ```bash
+    php artisan test
+    ```
