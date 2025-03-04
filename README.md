@@ -10,7 +10,7 @@
     composer install
     ```
 
-2. Configure `.env` or copy `.env.example` file to set up the database and run the following commands:
+2. Configure `.env` file to set up the database and run the following commands:
 
     ```bash
     php artisan migrate
